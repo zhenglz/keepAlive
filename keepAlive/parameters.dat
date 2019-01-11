@@ -1,6 +1,6 @@
 # Paramter control file
 # backup intervel, 600s ~ 10 mins
 TIME_GAP        = 100
-ORIGIN_LOCATION = test1
+ORIGIN_LOCATION = C:\Program Files (x86)\Steam\userdata\911281717\219740
 BACKUP_LOCATION = ./Backup
 MAXNUM_BACKUP   = 5
