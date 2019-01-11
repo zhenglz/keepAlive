@@ -1,0 +1,8 @@
+# Paramter control file
+
+TIME_GAP        = 600     # backup intervel, 600s = 10 mins
+ORIGIN_LOCATION = "C:/Program Files/Steam/game/dontstarve/data/DLC0001\\"
+BACKUP_LOCATION = "./"
+MAXNUM_BACKUP   = 10
+
+
