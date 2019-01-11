@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import os, sys
-import psutil
+#import psutil
 import glob
 import time
 import platform
