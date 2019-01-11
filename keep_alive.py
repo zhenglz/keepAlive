@@ -162,7 +162,7 @@ class KeepAlive(object):
 
         while True:
             self.game_last_state_ = self.game_on_
-
+            # check game state
             self.detect_game_state()
             self.read_params()
             self.detect_backups()
