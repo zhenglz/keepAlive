@@ -164,6 +164,7 @@ class KeepAlive(object):
             self.game_last_state_ = self.game_on_
             # check game state
             self.detect_game_state()
+            # read parameter files
             self.read_params()
             self.detect_backups()
 
