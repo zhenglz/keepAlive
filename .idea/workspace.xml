@@ -2,8 +2,123 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c8bd853-9959-4fe2-97c7-6b94cd42a348" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/keepAlive/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/keepAlive/keep_backup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keep_alive.py" beforeDir="false" afterPath="$PROJECT_DIR$/keep_alive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keep_alive.py" beforeDir="false" afterPath="$PROJECT_DIR$/keepAlive/keep_alive.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parameters.dat" beforeDir="false" afterPath="$PROJECT_DIR$/keepAlive/parameters.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/MANIFEST.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/automd/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/automd/autoMD.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/automd/cleanpdb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/automd/fixpdb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/automd/gaussian.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/automd/gentop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/automd/gmxtop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/automd/runmd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/automd/shiftpdb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/automd/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/bin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/bin/genfeatures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/bin/gmx_angle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/bin/gmx_cmap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/bin/gmx_coordnum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/bin/gmx_dssp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/bin/gmx_extract.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/bin/gmx_index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/bin/gmx_ligtop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/bin/gmx_lipids.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/bin/gmx_pca.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/bin/gmx_plot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/bin/matrix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/bin/network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/bin/pmf2d.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/bin/ppdock.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/bin/timestamp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/data/AtomType.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/data/amino-acid.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/data/drug_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/data/elementNegativity.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/data/example_cmap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/data/nucleic-acid.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/data/sample_antechamber.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/data/sample_gaussian.inp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/dockingML.egg-info/PKG-INFO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/dockingML.egg-info/SOURCES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/dockingML.egg-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/dockingML.egg-info/not-zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/dockingML.egg-info/requires.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/dockingML.egg-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/dockml/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/dockml/algorithms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/dockml/classification.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/dockml/convert.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/dockml/dock.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/dockml/features.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/dockml/filter_mol2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/dockml/gold.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/dockml/index.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/dockml/mlearn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/dockml/mol2IO.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/dockml/pdbIO.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/dockml/ppdock.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/dockml/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/mdanaly/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/mdanaly/angles.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/mdanaly/cmap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/mdanaly/coordNum.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/mdanaly/dssp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/mdanaly/dynamics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/mdanaly/extract.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/mdanaly/gmxcli.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/mdanaly/lipids.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/mdanaly/matrix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/mdanaly/network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/mdanaly/pca.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/mdanaly/plane_fit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/mdanaly/plot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/mdanaly/pmf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/mdanaly/subplot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/mdanaly/timestamp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/mdanaly/workingflow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/communities/betweenness.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/communities/commu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/communities/domains.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/gen_results.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/input.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/methyl_rrm/cmap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/methyl_rrm/cmap_res60-70_CA_switched.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/methyl_rrm/coord_result.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/methyl_rrm/coordnum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/methyl_rrm/explained_variance_ratio.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/methyl_rrm/output.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/methyl_rrm/output.ndx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/methyl_rrm/pca_xyz_proj1-20.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/methyl_rrm/proj1-20" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/methyl_rrm/reference.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/methyl_rrm/t_999.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/methyl_rrm/test_traj_dt1ns.xtc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/output.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/read_MMPBSA.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/shiftPDB.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/test2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/test_GOLD_Results.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/test_PRLBD_VS.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/test_cmap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/test_cmap_NbyN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/test_commonrank.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/test_features.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/test_gmxtop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/test_gridfeatures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test/test_rotateDNA.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/update2github.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2/Backup_/0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test2/Backup_/0/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +140,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/keep_alive.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keepAlive/keep_alive.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="166" column="34" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
+            <state relative-caret-position="-738">
+              <caret line="136" column="49" lean-forward="true" selection-start-line="136" selection-start-column="49" selection-end-line="136" selection-end-column="49" />
               <folding>
                 <element signature="e#23#37#0" expanded="true" />
               </folding>
@@ -37,16 +152,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parameters.dat">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/keepAlive/keep_backup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="418">
+              <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keepAlive/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keepAlive/parameters.dat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,6 +212,11 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/parameters.dat" />
         <option value="$PROJECT_DIR$/keep_alive.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/keepAlive/__init__.py" />
+        <option value="$PROJECT_DIR$/keepAlive/keep_alive.py" />
+        <option value="$PROJECT_DIR$/keepAlive/parameters.dat" />
+        <option value="$PROJECT_DIR$/keepAlive/keep_backup.py" />
       </list>
     </option>
   </component>
@@ -78,6 +238,11 @@
               <item name="keepAlive" type="b2602c69:ProjectViewProjectNode" />
               <item name="keepAlive" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="keepAlive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="keepAlive" type="462c0819:PsiDirectoryNode" />
+              <item name="keepAlive" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -87,6 +252,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/keepAlive" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -118,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547212651935</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add first commit">
+      <created>1547212745206</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547212745206</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -144,10 +321,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295063" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295063" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32988507" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32873562" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.18665607" side_tool="true" weight="0.35517243" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49960285" weight="0.32988507" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.81334394" visible="true" weight="0.35517243" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -168,19 +345,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parameters.dat">
+    <entry file="file://$PROJECT_DIR$/keepAlive/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="38">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keep_alive.py">
+    <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="166" column="34" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
+        <state relative-caret-position="380">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keepAlive/keep_alive.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-738">
+          <caret line="136" column="49" lean-forward="true" selection-start-line="136" selection-start-column="49" selection-end-line="136" selection-end-column="49" />
           <folding>
             <element signature="e#23#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keepAlive/parameters.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keepAlive/keep_backup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="41" lean-forward="true" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>

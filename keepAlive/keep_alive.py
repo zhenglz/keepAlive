@@ -40,22 +40,25 @@ class KeepAlive(object):
             print("The parameter file %s is not existed! Exit now!"%fn)
             print("You may close this window. Otherwise it will be closed in 20s. ")
             print("*ERROR*" * 50)
-            time.sleep(20)
+            time.sleep(10)
 
             #sys.exit(0)
 
-        with open(fn) as lines:
-            lines = [x for x in lines if "#" not in x]
+            return self.params
+        else:
+            params = {}
+            with open(fn) as lines:
+                lines = [x for x in lines if "#" not in x]
 
-            for s in lines:
-                if s.split("=")[0] in self.params.keys():
-                    self.params[s.strip("=")[0]] = \
-                        s.strip("=")[-1].split("#")[0].strip("\"")
+                for s in lines:
+                    #print(s)
+                    params[s.split("=")[0].strip()] = \
+                        s.split("=")[-1].strip()
 
-            self.params["TIME_GAP"] = int(self.params["TIME_GAP"])
-            self.params["MAXNUM_BACKUP"] = int(self.params["MAXNUM_BACKUP"])
+                params["TIME_GAP"] = int(params["TIME_GAP"])
+                params["MAXNUM_BACKUP"] = int(params["MAXNUM_BACKUP"])
 
-        return self
+            return params
 
     def delete_backups(self, folder):
 
@@ -74,7 +77,9 @@ class KeepAlive(object):
         else:
             cmd = "ls %s" % self.params["BACKUP_LOCATION"]"""
 
-        self.backup_folders_ = os.listdir(self.params["ORIGIN_LOCATION"])
+        self.backup_folders_ = os.listdir(self.params["BACKUP_LOCATION"])
+        self.backup_folders_ = [x for x in self.backup_folders_
+                                if self.bkp_prefix_ in x]
 
         return self
 
@@ -117,8 +122,8 @@ class KeepAlive(object):
         write_loc = os.path.join(self.params["BACKUP_LOCATION"],
                                  self.bkp_prefix_, str(indexer))
 
-        if write_loc not in os.listdir(self.params["BACKUP_LOCATION"]):
-            mkpath(write_loc)
+        #if write_loc not in os.listdir(self.params["BACKUP_LOCATION"]):
+        #    mkpath(write_loc)
 
         self.copy_files(source_folder, write_loc)
         return self
@@ -127,8 +132,7 @@ class KeepAlive(object):
 
         write_loc     = self.params["ORIGIN_LOCATION"]
         source_folder = os.path.join(self.params["BACKUP_LOCATION"],
-                                     self.bkp_prefix_,
-                                     str(self.current_bkp_num_ + 1))
+                                     self.backup_folders_[-1])
 
         self.copy_files(source_folder, write_loc)
         return self
@@ -153,7 +157,7 @@ class KeepAlive(object):
             self.restore_now_ = True
 
         self.game_folder_empty_ = False
-        if len(os.listdir(self.params["BACKUP_LOCATION"])) < 10:
+        if len(os.listdir(self.params["ORIGIN_LOCATION"])) < 10:
             self.game_folder_empty_ = True
 
         return self
@@ -170,7 +174,10 @@ class KeepAlive(object):
 
             if self.game_on_:
                 if self.current_bkp_num_ == self.params["MAXNUM_BACKUP"]:
-                    self.delete_backups(self.backup_folders_[0])
+                    # remove the first backup folder
+                    self.delete_backups(os.path.join(
+                        self.params["BACKUP_LOCATION"],
+                        self.backup_folders_[0]))
 
                 self.write_backup()
 
